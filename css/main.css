@@ -121,6 +121,12 @@ p, li {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .carousel-indicators {
+      top: 100%;
+    }
+}
+
 .btn-primary {
     background-color: #ec4b0d;
     border-color:#ec4b0d;

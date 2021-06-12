@@ -15,6 +15,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
     <title>SG Local Business</title>
 </head>
 
@@ -38,9 +41,6 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link py-0 px-2 active" aria-current="page" href="index.html">Home</a>
-                        </li>
                         <li class="nav-item border-start">
                             <a class="nav-link py-0 px-2" href="homepreneurs.html">Homepreneurs</a>
                         </li>
@@ -48,13 +48,13 @@
                             <a class="nav-link py-0 px-2" href="influencers.html">Influencers</a>
                         </li>
                         <li class="nav-item border-start">
-                            <a class="nav-link py-0 px-2" href="#">Designing Services</a>
+                            <a class="nav-link py-0 px-2" href="designing-services.html">Designing Services</a>
                         </li>
                         <li class="nav-item border-start">
-                            <a class="nav-link py-0 px-2" href="#">Suppliers</a>
+                            <a class="nav-link py-0 px-2" href="suppliers.html">Suppliers</a>
                         </li>
-                        <li class="nav-item border-start">
-                            <a class="nav-link py-0 px-2" href="#">Get Listed for Free</a>
+                        <li class="nav-item border-start active">
+                            <a class="nav-link py-0 px-2" href="index.html">Get Listed for Free</a>
                         </li>
                     </ul>
                 </div>
@@ -63,21 +63,145 @@
     </header>
     <main>
         <section class="container-fluid grey p-3 p-lg-5">
-            <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center p-3 p-lg-5">
-                <div class="col">
-                    <h1>Get your website up in 1 minute</h1>
-                    <p>Bring your business online with us</p>
-                    <div class="d-grid gap-2 d-md-block">
-                        <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
-                        <a class="btn btn-light" href="#" role="button">Request Demo</a>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active mx-1 rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="mx-1 rounded-circle" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="mx-1 rounded-circle" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="mx-1 rounded-circle" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="mx-1 rounded-circle" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="mx-1 rounded-circle" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="mx-1 rounded-circle" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner p-3 p-lg-5">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center">
+                            <div class="col">
+                                <h1>Get your website up in 1 minute</h1>
+                                <p>Bring your business online with us</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
+                                    <a class="btn btn-light" href="#" role="button">Request Demo</a>
+                                </div>
+                            </div>
+                            <div class="col mt-3 mt-md-5 mt-lg-0">
+                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                    <iframe src="https://www.youtube.com/embed/a62FOlFf3WU?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center">
+                            <div class="col">
+                                <h1>Get your website up in 1 minute</h1>
+                                <p>Bring your business online with us</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
+                                    <a class="btn btn-light" href="#" role="button">Request Demo</a>
+                                </div>
+                            </div>
+                            <div class="col mt-3 mt-md-5 mt-lg-0">
+                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                    <iframe src="https://www.youtube.com/embed/SUV6Ntw92C8?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center">
+                            <div class="col">
+                                <h1>Get your website up in 1 minute</h1>
+                                <p>Bring your business online with us</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
+                                    <a class="btn btn-light" href="#" role="button">Request Demo</a>
+                                </div>
+                            </div>
+                            <div class="col mt-3 mt-md-5 mt-lg-0">
+                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                    <iframe src="https://www.youtube.com/embed/ue-Z4mJ62ek?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center">
+                            <div class="col">
+                                <h1>Get your website up in 1 minute</h1>
+                                <p>Bring your business online with us</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
+                                    <a class="btn btn-light" href="#" role="button">Request Demo</a>
+                                </div>
+                            </div>
+                            <div class="col mt-3 mt-md-5 mt-lg-0">
+                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                    <iframe src="https://www.youtube.com/embed/BDoU79qRm4I?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center">
+                            <div class="col">
+                                <h1>Get your website up in 1 minute</h1>
+                                <p>Bring your business online with us</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
+                                    <a class="btn btn-light" href="#" role="button">Request Demo</a>
+                                </div>
+                            </div>
+                            <div class="col mt-3 mt-md-5 mt-lg-0">
+                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                    <iframe src="https://www.youtube.com/embed/mrPsNuO-t_o?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center">
+                            <div class="col">
+                                <h1>Get your website up in 1 minute</h1>
+                                <p>Bring your business online with us</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
+                                    <a class="btn btn-light" href="#" role="button">Request Demo</a>
+                                </div>
+                            </div>
+                            <div class="col mt-3 mt-md-5 mt-lg-0">
+                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                    <iframe src="https://www.youtube.com/embed/YeHTeZIyjpM?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center justify-content-center">
+                            <div class="col">
+                                <h1>Get your website up in 1 minute</h1>
+                                <p>Bring your business online with us</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button">Build Website Now</a>
+                                    <a class="btn btn-light" href="#" role="button">Request Demo</a>
+                                </div>
+                            </div>
+                            <div class="col mt-3 mt-md-5 mt-lg-0">
+                                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                                    <iframe src="https://www.youtube.com/embed/iJCyuHCZrcs?rel=0" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col mt-3 mt-md-5 mt-lg-0">
-                    <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
-                        <iframe src="https://www.youtube.com/embed/9u7F2MhuGhY?rel=0" title="YouTube video" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
         </section>
         <section class="container-fluid grey p-3 p-lg-5" id="about">
             <div class="row text-center px-3 px-lg-5">
