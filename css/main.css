@@ -125,6 +125,10 @@ p, li {
     .carousel-indicators {
       top: 100%;
     }
+
+    .carousel .carousel-item {
+        height: auto; 
+    }
 }
 
 .btn-primary {
